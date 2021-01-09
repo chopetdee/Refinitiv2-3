@@ -20,7 +20,6 @@ async function main() {
         }
         data[temp.shift().replace(/\s$/, "")] = temp
     }
-    console.log(data);
     console.log(data[process.argv[2]][0])
 }
 
